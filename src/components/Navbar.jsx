@@ -17,14 +17,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "Products", path: "/products" },
-    { name: "FAQs", path: "/faq" },
-    { name: "Contact", path: "/contact" },
-  ];
+ const navLinks = [
+  { name: "Home", path: "/" },
+  { name: "About Us", path: "/about" },
+  { name: "Services", path: "/services" },
+  { name: "Products", path: "/products" },
+  { name: "Amazon Dashboard", path: "/amazon-dashboard" },
+  { name: "FAQs", path: "/faq" },
+  { name: "Contact", path: "/contact" },
+];
 
   return (
     <header

@@ -9,6 +9,7 @@ import Contact from "../pages/Contact";
 import ProductDetails from "../pages/ProductDetails";
 import NotFound from "../pages/NotFound";
 import ScrollToTop from "../components/ScrollToTop";
+import AmazonDashboard from "../pages/AmazonDashboard";
 
 const Router = () => {
   return (
@@ -23,7 +24,10 @@ const Router = () => {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
-        
+        <Route
+path="/amazon-dashboard"
+  element={<AmazonDashboard />}
+/>
       </Routes>
     </BrowserRouter>
   );

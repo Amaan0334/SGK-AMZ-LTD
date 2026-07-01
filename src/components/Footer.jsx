@@ -69,6 +69,15 @@ const Footer = () => {
       Contact
     </Link>
   </li>
+<li>
+  <Link
+    to="/amazon-dashboard"
+    className="hover:text-[#C89B3C] transition"
+  >
+    Amazon Dashboard
+  </Link>
+</li>
+
 </ul>
           </div>
 
