@@ -4,6 +4,8 @@ import {
   MapPin,
 } from "lucide-react";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300">
