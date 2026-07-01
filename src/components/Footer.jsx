@@ -31,14 +31,43 @@ const Footer = () => {
               Quick Links
             </h4>
 
-            <ul className="space-y-3">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Products</li>
-              <li>Services</li>
-              <li>FAQs</li>
-              <li>Contact</li>
-            </ul>
+            <ul className="space-y-2">
+  <li>
+    <Link to="/" className="hover:text-[#C89B3C] transition">
+      Home
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/about" className="hover:text-[#C89B3C] transition">
+      About
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/services" className="hover:text-[#C89B3C] transition">
+      Services
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/products" className="hover:text-[#C89B3C] transition">
+      Products
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/faq" className="hover:text-[#C89B3C] transition">
+      FAQs
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/contact" className="hover:text-[#C89B3C] transition">
+      Contact
+    </Link>
+  </li>
+</ul>
           </div>
 
           {/* Contact */}
