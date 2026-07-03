@@ -22,7 +22,6 @@ const Navbar = () => {
   { name: "About Us", path: "/about" },
   { name: "Services", path: "/services" },
   { name: "Products", path: "/products" },
-  { name: "Amazon Dashboard", path: "/amazon-dashboard" },
   { name: "FAQs", path: "/faq" },
   { name: "Contact", path: "/contact" },
 ];
