@@ -34,7 +34,13 @@ const services = [
     icon: Handshake,
     title: "Business Partnerships",
     description:
-      "Building long-term partnerships with retailers and distributors while supporting Amazon marketplace growth through data-driven business insights.",
+      "Building long-term partnerships with retailers, distributors, and online businesses.",
+  },
+  {
+    icon: Store,
+    title: "Amazon Account Management",
+    description:
+      "Comprehensive Amazon account management services including PPC campaign management, inventory management, shipment planning, product listing optimization, account health monitoring, A+ Content creation, brand management, and performance reporting.",
     hasButton: true,
   },
   {
@@ -141,23 +147,24 @@ const Services = () => {
                     {service.description}
                   </p>
 
-                  {service.hasButton && (
-                    <>
-                      <div className="mt-6 p-4 rounded-xl bg-[#C89B3C]/10 border border-[#C89B3C]/20">
-                        <p className="text-sm text-gray-700">
-                          Explore one of our client's Amazon marketplace
-                          performance dashboard and business analytics.
-                        </p>
-                      </div>
+                 {service.hasButton && (
+  <>
+    <div className="mt-6 p-4 rounded-xl bg-[#C89B3C]/10 border border-[#C89B3C]/20">
+      <p className="text-sm text-gray-700">
+        Explore one of our client's Amazon account management case studies,
+        showcasing PPC campaigns, advertising performance, inventory control,
+        shipment management, and overall marketplace growth.
+      </p>
+    </div>
 
-                      <Link
-                        to="/amazon-dashboard"
-                        className="mt-5 inline-flex items-center justify-center w-full bg-[#C89B3C] hover:bg-[#b8892e] text-white px-6 py-3 rounded-xl font-semibold transition duration-300"
-                      >
-                        View Client Case Study →
-                      </Link>
-                    </>
-                  )}
+    <Link
+      to="/amazon-dashboard"
+      className="mt-5 inline-flex items-center justify-center w-full bg-[#C89B3C] hover:bg-[#b8892e] text-white px-6 py-3 rounded-xl font-semibold transition duration-300"
+    >
+      View Amazon Case Study →
+    </Link>
+  </>
+)}
                 </motion.div>
               );
             })}
